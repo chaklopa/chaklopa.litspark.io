@@ -9,9 +9,9 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            line-height: 1.6;
             background-color: #f9f9f9;
             color: #333;
+            line-height: 1.6;
         }
         header {
             background: linear-gradient(to bottom, #ff9a9e, #fad0c4);
@@ -24,31 +24,32 @@
         }
         header p {
             font-size: 1.2em;
-            margin: 0.5em 0;
+            margin-top: 10px;
         }
         .container {
             width: 90%;
             max-width: 1200px;
             margin: auto;
-            overflow: hidden;
             padding: 1em;
         }
-        .features-section {
+        .cta-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #ff6f61;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .visual {
             margin: 2em 0;
             text-align: center;
         }
-        .features-section img {
+        .visual img {
             max-width: 100%;
-            height: auto;
             border-radius: 10px;
             box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        .feature {
-            margin: 2em 0;
-        }
-        .feature h3 {
-            margin: 1em 0 0.5em;
-            color: #ff6f61;
         }
         footer {
             background: #333;
@@ -63,35 +64,27 @@
 
 <header>
     <h1>LitSpark – Literacy Block</h1>
-    <p>Give your little learner the gift of literacy! 📚✨
-With LitSpark, learning to read becomes a magical adventure! 🎉
-🌟 Personalized learning paths.
-📖 Interactive storybooks.
-👩‍🏫 Progress tracking for parents and teachers.
-Start your child’s journey to success today!</p>
+    <p>Transform Your Child's Reading Journey with LitSpark 📚</p>
+    <a href="content.html" class="cta-button">Explore More</a>
 </header>
 
 <div class="container">
-    <section class="features-section">
-        <h2>Interactive Learning Experiences</h2>
-        
-        <div class="feature">
-            <img src="visual1.png" alt="Child using interactive storybook">
-            <h3>Personalized Learning for Kids</h3>
-            <p>Empower your child with interactive tools tailored to their reading journey. Let them explore storybooks with engaging visuals and AI-driven lessons.</p>
-        </div>
+    <section class="visual">
+        <h2>Interactive Learning Experience</h2>
+        <img src="visual1.webp" alt="✨ Engaging storybooks.">
+        <p>Discover how LitSpark engages children with fun, interactive learning tools.</p>
+    </section>
 
-        <div class="feature">
-            <img src="visual2.png" alt="Teacher guiding children in classroom">
-            <h3>Collaborative Learning for Classrooms</h3>
-            <p>Bring the joy of learning into classrooms with tools that enhance engagement and promote teamwork. Perfect for group activities and skill-building sessions.</p>
-        </div>
+    <section class="visual">
+        <h2>Confidence and Success</h2>
+        <img src="visual2.webp" alt="Confident reading">
+        <p>Help children develop confidence and literacy skills with LitSpark’s tailored learning paths.</p>
+    </section>
 
-        <div class="feature">
-            <img src="visual3.png" alt="Parent and child interacting with tablet">
-            <h3>Parent-Child Bonding Through Learning</h3>
-            <p>Strengthen the bond with your child as you guide them through a journey of discovery and learning. Make reading sessions more interactive and fun at home.</p>
-        </div>
+    <section class="visual">
+        <h2>Testimonials</h2>
+        <img src="visual3.webp" alt="Parent and teacher testimonials">
+        <p>Hear why parents and teachers trust LitSpark to transform literacy education.</p>
     </section>
 </div>
 
